@@ -1,5 +1,25 @@
-.App {
-  text-align: center;
+NavbarComp {
+    text-align: right;
+    background-color: #e8e8e8;
+}
+
+FooterComp {
+    text-align: center;
+    background-color: #cecfcf;
+}
+
+App {
+    text-align: center;
+    background-color: #cecfcf;
+}
+
+
+body {
+    height: 400px;
+    background-image: url("https://static.nationalgeographic.es/files/styles/image_3200/public/01-destroying-hurricanes.webp?w=1450&h=967&q=100");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .App-logo {
@@ -47,3 +67,8 @@
   text-align: center;
 }
 
+
+body {
+    background-color: #ffdd90;
+    /*background-image: url("./images2.jpeg");*/
+}

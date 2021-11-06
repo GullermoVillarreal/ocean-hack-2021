@@ -4,14 +4,15 @@ import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap'
 
 const header = () => {
   return (
-      <div>
-          {<Navbar bg="light" expand="lg">
-              <Container>
-                  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+      <div content="charset=utf-8">
+
+          <Navbar bg="dark" expand="lg">
+              <Container bg="dark" >
+                  <Navbar.Brand href="#home"><img src="./public/logo192.png" className ="d-block w-100"/></Navbar.Brand>
                   <Navbar.Toggle aria-controls="basic-navbar-nav" />
                   <Navbar.Collapse id="basic-navbar-nav">
                       <Nav className="me-auto">
-                          <Nav.Link href="#home">Home</Nav.Link>
+                          <Nav.Link href="#home">¿Qué es un huracán?</Nav.Link>
                           <Nav.Link href="#link">Link</Nav.Link>
                           <NavDropdown title="Dropdown" id="basic-nav-dropdown">
                               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -23,7 +24,7 @@ const header = () => {
                       </Nav>
                   </Navbar.Collapse>
               </Container>
-          </Navbar>}
+          </Navbar>
       </div>
   );
 };

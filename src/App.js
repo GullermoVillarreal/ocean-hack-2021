@@ -6,11 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Map from './components/map';
 import NavbarComp from './components/NavbarComp';
 import FooterComp from './components/FooterComp';
+import Carousel from './components/CarouselComp';
 
 function App() {
   return (
       <div className="App">
-          <header />
+          <NavbarComp />
+          <Carousel />
           <Map />
           <FooterComp />
     </div>
