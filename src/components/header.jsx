@@ -1,14 +1,11 @@
 import React from 'react';
 import './styles/header_styles.css'
+import {Contanier, Navbar, NavDropdown, Nav} from 'react-bootstrap'
 
 const header = () => {
   return (
-    <div className="header-container">
-          {
-              <h1>NADA*******************</h1>
-          }
-      <h1>HEADER</h1>
-    </div>
+      <div>
+      </div>
   );
 };
 
