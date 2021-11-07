@@ -81,9 +81,18 @@ App {
 }
 
 .alice-flex {
-  display: flex;
-  background-color: red;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: wrap;
+    display: flex;
+    background-color: #283433;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.newsletter-flex {
+    display: flex;
+    background-color: #283433;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+    flex-wrap: wrap;
 }
