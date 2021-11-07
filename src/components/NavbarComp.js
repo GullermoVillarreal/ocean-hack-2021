@@ -1,17 +1,17 @@
 import React, { Component } from 'react';
-import { Navbar, NavDropdown, Nav, Container } from 'react-bootstrap';
+import { Button, Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import logo from './img/logoo.PNG';
 
 export default class NavbarComp extends Component {
   render() {
     return (
-      <div className="text-center container-fluid NavbarComp App">
+      <div className="">
         <Navbar bg="light" expand="lg">
           <Container className="NavbarComp">
             <Navbar.Brand href="#home">
-              <img src={logo} className="d-block w-40" />{' '}
+              <img src={logo} alt="logo" className="d-block w-40" />{' '}
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Toggle />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#home">Aprende</Nav.Link>
@@ -30,6 +30,7 @@ export default class NavbarComp extends Component {
                   </NavDropdown.Item>
                 </NavDropdown>
               </Nav>
+              <Button variant="primary">Prueba nuestra App</Button>
             </Navbar.Collapse>
           </Container>
         </Navbar>

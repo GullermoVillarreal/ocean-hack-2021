@@ -1,20 +1,17 @@
 //You can modifiy the styles in this file
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
-//You can create new components if you want and import them here
-import Map from './components/map';
-import NavbarComp from './components/NavbarComp';
-import FooterComp from './components/FooterComp';
-import Carousel from './components/CarouselComp';
+// import Carousel from './components/CarouselComp';
 import React from 'react';
+import './App.css';
+import FooterComp from './components/FooterComp';
+import HeroSection from './components/heroSection';
+import NavbarComp from './components/NavbarComp';
 
 function App() {
   return (
     <div className="App">
       <NavbarComp />
-      <Carousel />
-      <Map />
+      <HeroSection />
       <FooterComp />
     </div>
   );

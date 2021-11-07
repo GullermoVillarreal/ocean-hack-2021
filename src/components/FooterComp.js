@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card } from 'react-bootstrap';
 
 export default class FooterComp extends Component {
   render() {
     return (
-      <div className="text-center container-fluid NavbarComp App">
+      <div className="footer-container">
         <Card>
           <Card.Header>Featured</Card.Header>
           <Card.Body>
@@ -13,9 +13,8 @@ export default class FooterComp extends Component {
               With supporting text below as a natural lead-in to additional
               content.
             </Card.Text>
-            <Button variant="primary">Prueba nuestra App</Button>
           </Card.Body>
-          <Card.Footer className="text-muted">2 days ago</Card.Footer>
+          <Card.Footer className="text-muted">By Hurakan't</Card.Footer>
         </Card>
       </div>
     );
