@@ -167,3 +167,10 @@
 .card-body {
   overflow-y: auto;
 }
+.seguimos {
+  color: red !important;
+  font-size: 20px;
+  padding: 10px 30px;
+  color: rgb(112, 108, 108);
+  text-decoration: none;
+}

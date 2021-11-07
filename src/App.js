@@ -24,6 +24,7 @@ function App() {
         <Link className="links" to="/directorio">
           Directorio
         </Link>
+        <p className="seguimos">¡SEGUIMOS TRABAJANDO EN NUESTRA WEB! </p>
       </nav>
     </div>
   );
