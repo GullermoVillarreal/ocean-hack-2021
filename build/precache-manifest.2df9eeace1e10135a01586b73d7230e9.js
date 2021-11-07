@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d2c50e3ea50a2283ab1432dbd560b0fc",
+    "revision": "5b22488e5e64e281e54c883aa4154471",
     "url": "/index.html"
   },
   {
-    "revision": "7b524ff50b09bff38a37",
+    "revision": "65f80c9a6bd7c6641073",
     "url": "/static/css/2.de3a2549.chunk.css"
   },
   {
-    "revision": "58031b2e6faa817fb1f1",
+    "revision": "10c16050a30a6d13c37c",
     "url": "/static/css/main.3b2e5f8b.chunk.css"
   },
   {
-    "revision": "7b524ff50b09bff38a37",
-    "url": "/static/js/2.651617fc.chunk.js"
+    "revision": "65f80c9a6bd7c6641073",
+    "url": "/static/js/2.304ca53b.chunk.js"
   },
   {
     "revision": "4edd323c13fba450b563415de11f9f93",
-    "url": "/static/js/2.651617fc.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.304ca53b.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "58031b2e6faa817fb1f1",
-    "url": "/static/js/main.10d708d5.chunk.js"
+    "revision": "10c16050a30a6d13c37c",
+    "url": "/static/js/main.2eca9783.chunk.js"
   },
   {
     "revision": "781c108be6b850b85ec4",
@@ -30,6 +30,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "4ce9e697e998e24d50d058a78bc15a83",
     "url": "/static/media/calma.4ce9e697.jpg"
+  },
+  {
+    "revision": "a68bb322559b76b94bef89dea53769bc",
+    "url": "/static/media/etapas_ciclon_aprende_1.a68bb322.jpg"
+  },
+  {
+    "revision": "12d7d2c0c3936ba6114edbb25eb0f549",
+    "url": "/static/media/huracan-slider-1.12d7d2c0.jpg"
   },
   {
     "revision": "c2bc987db5abe4b564221440ac1ad177",
