@@ -20,7 +20,7 @@ const DirectorioComp = () => {
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
-                        <td>BAJA CALIFORNIA SUR</td>
+                        <td>BAJA CALIFORNIA</td>
                         <td>TIJUANA</td>
                         <td>CALLE PANFILO NATERA 6400 ENTRE FRANCISCO VILLA Y MACLOVIO HERRERA COL FRANCISCO VILLA</td>
                         <td>22615</td>
@@ -29,7 +29,7 @@ const DirectorioComp = () => {
                     </tr>
                     <tr>
                         <th scope="row">2</th>
-                        <td>BAJA CALIFORNIA SUR</td>
+                        <td>BAJA CALIFORNIA</td>
                         <td>MEXICALI</td>
                         <td>CALLE LAGO WINIPEG 441 COL  JARDINES DEL LAGO COL JARDINES DEL LAGO</td>
                         <td>21330</td>
@@ -41,6 +41,7 @@ const DirectorioComp = () => {
                         <td>BAJA CALIFORNIA SUR</td>
                         <td>LA PAZ</td>
                         <td>BLVD LUIS DONALDO COLOSIO ESQ VALENTIN GOMEZ FARIAS COL PUEBLO NUEVO</td>
+                        <td>21330</td>
                         <td>612 123 80 00</td>
                         <td>pagina@sepbcs.gob.mx</td>
                     </tr>
