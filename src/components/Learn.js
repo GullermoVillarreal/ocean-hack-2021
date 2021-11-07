@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import logo from './img/huracan-slider-1.jpg'
 import logo2 from './img/los-huracanes-mas-devastadores-de-la-historia.jpg';
 import logo3 from './img/nombres.jpg';
 import logo4 from './img/tornado.jpg';
@@ -12,9 +13,8 @@ const Learn = () => {
         <div className="img-container">
           <Card.Img
 
-            variant="top" src={logo2}  className="card-image"
-            variant="top"
-            src="https://picsum.photos/seed/picsum/500"
+            variant="top" src={logo}  className="card-image"
+     
             className="card-image"
 
           />
