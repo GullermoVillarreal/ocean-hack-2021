@@ -1,13 +1,12 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
-import Map from './map.jsx';
+import FooterComp from './FooterComp';
+import App from '../App';
 const layout = () => {
   return (
     <div>
-      <Header />
-      <Map />
-      <Footer />
+      <App />
+
+      <FooterComp />
     </div>
   );
 };

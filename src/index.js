@@ -1,7 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import './index.css';
 import App from './App';
-
-ReactDOM.render(<App />, document.getElementById('root'));
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import HeroSection from './components/heroSection';
+import Learn from './components/Learn';
+import FooterComp from './components/FooterComp';
+ReactDOM.render(
+  <BrowserRouter>
+    <App />
+    <Routes>
+      <Route path="/" element={<HeroSection />} />
+      <Route path="aprende" element={<Learn />} />
+      <Route path="medidas-para-prevenir" element={<Learn />} />
+      <Route path="directorio" element={<Learn />} />
+    </Routes>
+    <FooterComp />
+  </BrowserRouter>,
+  document.getElementById('root')
+);

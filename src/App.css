@@ -87,3 +87,20 @@ App {
   align-items: center;
   flex-wrap: wrap;
 }
+
+.links {
+  font-size: 20px;
+  padding: 10px 10px;
+  color: rgb(112, 108, 108);
+  text-decoration: none;
+}
+
+.navBar {
+  display: flex;
+  justify-content: start;
+  padding-left: 40px;
+}
+.logo {
+  width: 160px;
+  height: auto;
+}

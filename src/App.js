@@ -3,16 +3,28 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 // import Carousel from './components/CarouselComp';
 import React from 'react';
 import './App.css';
-import FooterComp from './components/FooterComp';
-import HeroSection from './components/heroSection';
-import NavbarComp from './components/NavbarComp';
+import logo from './components/img/logoo.PNG';
+
+import { Link, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <NavbarComp />
-      <HeroSection />
-      <FooterComp />
+    <div>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light navBar">
+        <img className="logo" src={logo} alt="logo" />
+        <Link className="links" to="/">
+          Home
+        </Link>
+        <Link className="links" to="/aprende">
+          Aprende
+        </Link>
+        <Link className="links" to="/medidas-para-prevenir">
+          Medidas para prevenir
+        </Link>
+        <Link className="links" to="/directorio">
+          Directorio
+        </Link>
+      </nav>
     </div>
   );
 }
