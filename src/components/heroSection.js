@@ -1,13 +1,33 @@
 import React from 'react';
 import Iframe from 'react-iframe';
+import heroImg from './img/heroImg.png';
 const heroSection = () => {
   return (
     <div className="hero-container">
-      {/* <img src={heroImg} alt="heroImg" className="hero-img" /> */}
       <Iframe
         url="https://storage.googleapis.com/tf-tickets/Prueba1.html"
-        width="1200px"
-        height="850px"
+        width="350px"
+        height="300px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"
+        allow="geolocation"
+      />
+      <Iframe
+        url="https://storage.googleapis.com/tf-tickets/Prueba1.html"
+        width="350px"
+        height="300px"
+        id="myId"
+        className="myClassname"
+        display="initial"
+        position="relative"
+        allow="geolocation"
+      />
+      <Iframe
+        url="https://storage.googleapis.com/tf-tickets/Prueba1.html"
+        width="350px"
+        height="300px"
         id="myId"
         className="myClassname"
         display="initial"

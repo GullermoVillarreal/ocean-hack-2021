@@ -50,13 +50,17 @@ App {
 }
 
 .hero-container {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
+  gap: 30px;
+  margin-top: 120px;
 }
 
 .hero-img {
   width: 100%;
-  height: auto;
+  height: 75%;
+  position: absolute;
 }
 .hero-text {
   width: 100px;
@@ -66,25 +70,13 @@ App {
   left: 50%;
   color: #282c34;
 }
-.iframe-container {
-  width: 1800px;
-  background-color: red;
+/* .iframe-container {
 }
-
+ */
 .alice-flex {
   display: flex;
-  background-color: #283433;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
-}
-
-.newsletter-flex {
-  display: flex;
-  background-color: #283433;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: stretch;
   flex-wrap: wrap;
 }
 
@@ -107,15 +99,35 @@ App {
 .newsletter-flex {
   display: flex;
   width: 450px;
+  background-color: transparent;
 }
 .footer-container {
-  position: absolute;
-  bottom: 0;
-  height: 100px;
-  display: flex;
-  justify-content: space-around;
-  text-align: center;
-  width: 100%;
-  background-color: #283433;
+  align-items: center;
   color: white;
+  position: fixed;
+  bottom: 0;
+  max-height: 170px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.input-group {
+  border: 2px solid #283433;
+}
+.newsletter-flex {
+  font-weight: 500;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.myClassname {
+  margin-top: 50px;
+}
+.navbar {
+  position: fixed;
+  top: 0%;
 }

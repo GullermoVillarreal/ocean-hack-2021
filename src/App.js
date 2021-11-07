@@ -13,7 +13,7 @@ function App() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light navBar">
         <img className="logo" src={logo} alt="logo" />
         <Link className="links" to="/">
-          Home
+          Inicio
         </Link>
         <Link className="links" to="/aprende">
           Aprende
