@@ -48,14 +48,6 @@ App {
   color: white;
   text-align: center;
 }
-.footer-container {
-  
-  text-align: center;
-  width: 100%;
-  background-color: #283433;
-  color: white;
-  
-}
 
 .hero-container {
   display: flex;
@@ -80,20 +72,20 @@ App {
 }
 
 .alice-flex {
-    display: flex;
-    background-color: #283433;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+  display: flex;
+  background-color: #283433;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .newsletter-flex {
-    display: flex;
-    background-color: #283433;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: stretch;
-    flex-wrap: wrap;
+  display: flex;
+  background-color: #283433;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: stretch;
+  flex-wrap: wrap;
 }
 
 .links {
@@ -105,10 +97,25 @@ App {
 
 .navBar {
   display: flex;
-  justify-content: start;
+
   padding-left: 40px;
 }
 .logo {
   width: 160px;
   height: auto;
+}
+.newsletter-flex {
+  display: flex;
+  width: 450px;
+}
+.footer-container {
+  position: absolute;
+  bottom: 0;
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+  background-color: #283433;
+  color: white;
 }

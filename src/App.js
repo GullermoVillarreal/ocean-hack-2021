@@ -5,7 +5,7 @@ import React from 'react';
 import './App.css';
 import logo from './components/img/logoo.PNG';
 
-import { Link, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function App() {
   return (
