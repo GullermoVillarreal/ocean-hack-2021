@@ -6,13 +6,17 @@ import './App.css';
 import FooterComp from './components/FooterComp';
 import HeroSection from './components/heroSection';
 import NavbarComp from './components/NavbarComp';
+import CarouselComp from './components/CarouselComp';
 
 function App() {
   return (
     <div className="App">
       <NavbarComp />
-      <HeroSection />
-      <FooterComp />
+      
+          <HeroSection />
+          <CarouselComp />
+          <FooterComp />
+
     </div>
   );
 }

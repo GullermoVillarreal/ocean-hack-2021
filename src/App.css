@@ -49,13 +49,12 @@ App {
   text-align: center;
 }
 .footer-container {
-  position: fixed;
-  left: 0;
-  bottom: 0;
+  
+  text-align: center;
   width: 100%;
   background-color: #283433;
   color: white;
-  text-align: center;
+  
 }
 
 .hero-container {

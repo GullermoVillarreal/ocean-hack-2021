@@ -19,8 +19,8 @@ export default class FooterComp extends Component {
                 <Card.Text>
                    <div className="newsletter-flex">
                    <div class="input-group mb-3">
-                      <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
-                      <span class="input-group-text" id="basic-addon2">@example.com</span>
+                      <input type="text" class="form-control" placeholder="Número" aria-label="Recipient's username" aria-describedby="basic-addon2"/>
+                      <span class="input-group-text" id="basic-addon2">Teléfono Celular</span>
                     </div>
                         
                     </div>
