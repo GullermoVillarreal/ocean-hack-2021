@@ -114,7 +114,15 @@
 }
 .navbar {
   position: fixed;
+  z-index: 999;
   top: 0%;
+  width: 100%;
+}
+
+.card-container {
+  margin-top: 130px;
+  display: flex;
+  gap: 15px;
 }
 
 @media screen and (max-width: 800px) {
@@ -128,4 +136,14 @@
   .footer-container {
     padding: 10px;
   }
+}
+
+.card-learn {
+  width: 10rem;
+  height: 4rem;
+}
+
+.card-image {
+  width: 200px !important;
+  height: 300px !important;
 }
