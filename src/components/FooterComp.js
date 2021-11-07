@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Card } from 'react-bootstrap';
 
 import { AiFillFacebook } from 'react-icons/ai';
 import { AiOutlineInstagram } from 'react-icons/ai';

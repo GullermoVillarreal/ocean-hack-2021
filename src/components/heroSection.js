@@ -1,6 +1,6 @@
 import React from 'react';
 import Iframe from 'react-iframe';
-import heroImg from './img/heroImg.png';
+
 const heroSection = () => {
   return (
     <div className="hero-container">
