@@ -18,9 +18,8 @@ export default class FooterComp extends Component {
           <div className="alice-flex">
             <a href="https://www.facebook.com/hurakant/">
               <AiFillFacebook fontSize={30} />
-            </a>
-
-            <a href="https://www.instagram.com/hurikant/">
+                    </a>
+                    <a href="https://www.instagram.com/hurakantt/">
               <AiOutlineInstagram fontSize={30} />
             </a>
           </div>
