@@ -14,7 +14,11 @@ const Learn = () => {
         <div className="img-container">
           <Card.Img
             variant="top"
+<<<<<<< HEAD
                       src={logo}
+=======
+            src="https://picsum.photos/seed/picsum/500"
+>>>>>>> 1cfca5c46e3bb6b9823b291d8885eb6671b83091
             className="card-image"
           />
         </div>

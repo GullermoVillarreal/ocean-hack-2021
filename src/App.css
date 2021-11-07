@@ -39,7 +39,7 @@
   display: flex;
   justify-content: center;
   gap: 30px;
-  margin-top: 120px;
+  padding: 100px 80px;
 }
 
 .hero-img {
@@ -159,6 +159,7 @@
   object-fit: cover;
   overflow-y: scroll;
   margin-bottom: 10px;
+  border-radius: 8px;
 }
 .img-container {
   display: flex;
