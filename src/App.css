@@ -79,3 +79,11 @@ App {
   width: 1800px;
   background-color: red;
 }
+
+.alice-flex {
+  display: flex;
+  background-color: red;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
