@@ -14,9 +14,6 @@ const heroSection = () => {
         position="relative"
         allow="geolocation"
       />
-      {/*   <p className="hero-text">
-        No podemos controlar el clima, pero podemos prepararte
-      </p> */}
     </div>
   );
 };
