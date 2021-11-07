@@ -1,5 +1,4 @@
 import React from 'react';
-import heroImg from './img/heroImg.png';
 import Iframe from 'react-iframe';
 const heroSection = () => {
   return (
