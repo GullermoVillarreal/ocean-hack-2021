@@ -1,11 +1,9 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
-import logo from './img/etapas_ciclon_aprende_1.jpg';
-import logo1 from './img/uso-de-la-escala-saffir-simpson.jpg';
 import logo2 from './img/los-huracanes-mas-devastadores-de-la-historia.jpg';
 import logo3 from './img/nombres.jpg';
 import logo4 from './img/tornado.jpg';
-import logo5 from './img/los-huracanes-mas-devastadores-de-la-historia.jpg';
+import logo1 from './img/uso-de-la-escala-saffir-simpson.jpg';
 
 const Learn = () => {
   return (
@@ -14,11 +12,7 @@ const Learn = () => {
         <div className="img-container">
           <Card.Img
             variant="top"
-<<<<<<< HEAD
-                      src={logo}
-=======
             src="https://picsum.photos/seed/picsum/500"
->>>>>>> 1cfca5c46e3bb6b9823b291d8885eb6671b83091
             className="card-image"
           />
         </div>
@@ -32,11 +26,7 @@ const Learn = () => {
 
       <Card className="card-learn">
         <div className="img-container">
-          <Card.Img
-            variant="top"
-                      src={logo1}
-            className="card-image"
-          />
+          <Card.Img variant="top" src={logo1} className="card-image" />
         </div>
         <Card.Body>
           <Card.Title>¿Existe alguna escala para los huracanes?</Card.Title>
@@ -49,11 +39,7 @@ const Learn = () => {
 
       <Card className="card-learn">
         <div className="img-container">
-          <Card.Img
-            variant="top"
-                      src={logo2}
-            className="card-image"
-          />
+          <Card.Img variant="top" src={logo2} className="card-image" />
         </div>
         <Card.Body>
           <Card.Title>
@@ -68,11 +54,7 @@ const Learn = () => {
 
       <Card className="card-learn">
         <div className="img-container">
-          <Card.Img
-                      variant="top"
-                      src={ logo3}
-            className="card-image"
-          />
+          <Card.Img variant="top" src={logo3} className="card-image" />
         </div>
         <Card.Body>
           <Card.Title>
@@ -89,16 +71,18 @@ const Learn = () => {
 
       <Card className="card-learn">
         <div className="img-container">
-          <Card.Img
-                      variant="top"
-                      src={ logo4}
-            className="card-image"
-          />
+          <Card.Img variant="top" src={logo4} className="card-image" />
         </div>
         <Card.Body>
-                  <Card.Title>¿Es lo mismo un huracán que un tornado? </Card.Title>
+          <Card.Title>¿Es lo mismo un huracán que un tornado? </Card.Title>
           <Card.Text>
-                      Oh  no, un tornado tiene un diámetro de tan sólo 100 metros y se producen por medio de una tormenta eléctrica o una nube de tipo cumulonimbo, además de ser un fenómeno mayoritariamente terrestre, mientras que un huracán tiene un radio de decenas o centenas de kilómetros y está compuesto por varias docenas de éstas tormentas. Al tocar tierra, se debilita debido a la pérdida de una fuente de calor y humedad.
+            Oh no, un tornado tiene un diámetro de tan sólo 100 metros y se
+            producen por medio de una tormenta eléctrica o una nube de tipo
+            cumulonimbo, además de ser un fenómeno mayoritariamente terrestre,
+            mientras que un huracán tiene un radio de decenas o centenas de
+            kilómetros y está compuesto por varias docenas de éstas tormentas.
+            Al tocar tierra, se debilita debido a la pérdida de una fuente de
+            calor y humedad.
           </Card.Text>
         </Card.Body>
       </Card>

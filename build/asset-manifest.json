@@ -1,26 +1,34 @@
 {
   "files": {
-    "main.css": "/static/css/main.370648ae.chunk.css",
-    "main.js": "/static/js/main.2c408c8f.chunk.js",
-    "main.js.map": "/static/js/main.2c408c8f.chunk.js.map",
+    "main.css": "/static/css/main.3b2e5f8b.chunk.css",
+    "main.js": "/static/js/main.10d708d5.chunk.js",
+    "main.js.map": "/static/js/main.10d708d5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.bbc752fc.js",
     "runtime-main.js.map": "/static/js/runtime-main.bbc752fc.js.map",
     "static/css/2.de3a2549.chunk.css": "/static/css/2.de3a2549.chunk.css",
-    "static/js/2.0bb28b84.chunk.js": "/static/js/2.0bb28b84.chunk.js",
-    "static/js/2.0bb28b84.chunk.js.map": "/static/js/2.0bb28b84.chunk.js.map",
+    "static/js/2.651617fc.chunk.js": "/static/js/2.651617fc.chunk.js",
+    "static/js/2.651617fc.chunk.js.map": "/static/js/2.651617fc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af4347f100b919bb8958fdc4c9f3dd62.js": "/precache-manifest.af4347f100b919bb8958fdc4c9f3dd62.js",
+    "precache-manifest.618970d03a5f5d4ad2db192e6e3f6c42.js": "/precache-manifest.618970d03a5f5d4ad2db192e6e3f6c42.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.de3a2549.chunk.css.map": "/static/css/2.de3a2549.chunk.css.map",
-    "static/css/main.370648ae.chunk.css.map": "/static/css/main.370648ae.chunk.css.map",
-    "static/js/2.0bb28b84.chunk.js.LICENSE.txt": "/static/js/2.0bb28b84.chunk.js.LICENSE.txt",
-    "static/media/logoo.PNG": "/static/media/logoo.c2bc987d.PNG"
+    "static/css/main.3b2e5f8b.chunk.css.map": "/static/css/main.3b2e5f8b.chunk.css.map",
+    "static/js/2.651617fc.chunk.js.LICENSE.txt": "/static/js/2.651617fc.chunk.js.LICENSE.txt",
+    "static/media/calma.jpg": "/static/media/calma.4ce9e697.jpg",
+    "static/media/logoo.PNG": "/static/media/logoo.c2bc987d.PNG",
+    "static/media/los-huracanes-mas-devastadores-de-la-historia.jpg": "/static/media/los-huracanes-mas-devastadores-de-la-historia.d704c1da.jpg",
+    "static/media/mochila.png": "/static/media/mochila.a242fcae.png",
+    "static/media/nombres.jpg": "/static/media/nombres.db227e08.jpg",
+    "static/media/refugio.jpg": "/static/media/refugio.44e3d4ee.jpg",
+    "static/media/revisar.jpg": "/static/media/revisar.4f7afa0d.jpg",
+    "static/media/tornado.jpg": "/static/media/tornado.0f421db7.jpg",
+    "static/media/uso-de-la-escala-saffir-simpson.jpg": "/static/media/uso-de-la-escala-saffir-simpson.c3140e37.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.bbc752fc.js",
     "static/css/2.de3a2549.chunk.css",
-    "static/js/2.0bb28b84.chunk.js",
-    "static/css/main.370648ae.chunk.css",
-    "static/js/main.2c408c8f.chunk.js"
+    "static/js/2.651617fc.chunk.js",
+    "static/css/main.3b2e5f8b.chunk.css",
+    "static/js/main.10d708d5.chunk.js"
   ]
 }
