@@ -7,14 +7,15 @@ import Map from './components/map';
 import NavbarComp from './components/NavbarComp';
 import FooterComp from './components/FooterComp';
 import Carousel from './components/CarouselComp';
+import React from 'react';
 
 function App() {
   return (
-      <div className="App">
-          <NavbarComp />
-          <Carousel />
-          <Map />
-          <FooterComp />
+    <div className="App">
+      <NavbarComp />
+      <Carousel />
+      <Map />
+      <FooterComp />
     </div>
   );
 }
